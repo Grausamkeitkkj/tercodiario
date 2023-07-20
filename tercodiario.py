@@ -866,15 +866,18 @@ def terco_portugues():
     print(oracao_sao_jose[0][0])
 
 while True:
-    escolha = int(input('Deseja o terço em latim ou em português?\n'
-                        '1 - Latim\n'
-                        '2 - Português\n'))
-    
-    if escolha == 1:
-        terco_latim()
-        break 
-    elif escolha == 2:
-        terco_portugues()
-        break
-    else:
-        print("Escolha inválida. Por favor, digite 1 ou 2.")
+    try:
+        escolha = int(input('Deseja o terço em latim ou em português?\n'
+                            '1 - Latim\n'
+                            '2 - Português\n'))
+        
+        if escolha == 1:
+            terco_latim()
+            break 
+        elif escolha == 2:
+            terco_portugues()
+            break
+        else:
+            print("Escolha inválida. Por favor, digite 1 ou 2.")
+    except ValueError:
+        print("Entrada inválida. Por favor, digite um número inteiro.")
