@@ -721,7 +721,7 @@ misterios_dolorosos = {
     'A te pétimus, hoc mystério et intercessióne Tuæ Sanctíssimæ Mátris, plénam refrenatiónem nostrórum sénsuum. Ámen.\n'
     '(Pater noster, Ave Maria, Gloria Patri, O mi Iésu)\n'
     f'{", ".join(sorteia_santo())}\n'
-    'Grátia mystérii Verberatiónis Iésu, descénde in nostras ánimas. Amén.\n'
+    'Grátia mystérii Verberatiónis Iésu, descénde in nostras ánimas. Amén.\n\n'
 
     'Tibi offérimus, Dómine Iésu, hanc decádem in honórem Tuæ crudélis inductiónis coronæ spinórum.\n'
     'A te pétimus, hoc mystério et intercessióne Tuæ Sanctíssimæ Mátris, mágnam contemptiónem múndi. Ámen.\n'
